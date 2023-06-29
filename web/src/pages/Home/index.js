@@ -66,12 +66,12 @@ const Home = () => {
                       <p>名称：{statusState?.status?.system_name}</p>
                       <p>版本：{statusState?.status?.version}</p>
                       <p>
-                        源码：
+                        请求地址：
                         <a
-                          href='https://github.com/songquanpeng/one-api'
+                          href='hhaihai'
                           target='_blank'
                         >
-                          https://github.com/songquanpeng/one-api
+                          hhaihai
                         </a>
                       </p>
                       <p>启动时间：{getStartTimeString()}</p>

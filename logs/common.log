@@ -1,0 +1,88 @@
+[SYS] 2023/06/29 - 02:31:00 | One API v0.0.0 started 
+[SYS] 2023/06/29 - 02:31:00 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/06/29 - 02:31:00 | database connected 
+[SYS] 2023/06/29 - 02:31:00 | database migrated 
+[SYS] 2023/06/29 - 02:31:00 | no user exists, create a root user for you: username is root, password is 123456 
+[SYS] 2023/06/29 - 02:31:00 | REDIS_CONN_STRING not set, Redis is not enabled 
+[GIN] 2023/06/29 - 02:31:15 | 200 |     44.8968ms |   115.61.85.217 | GET      "/"
+[GIN] 2023/06/29 - 02:31:15 | 200 |     38.9473ms |   115.61.85.217 | GET      "/static/css/main.44582e8c.css"
+[GIN] 2023/06/29 - 02:31:15 | 200 |     53.5189ms |   115.61.85.217 | GET      "/static/js/main.66d6c45f.js"
+[GIN] 2023/06/29 - 02:31:16 | 200 |       164.5µs |   115.61.85.217 | GET      "/logo.png"
+[GIN] 2023/06/29 - 02:31:16 | 200 |          87µs |   115.61.85.217 | GET      "/logo.png"
+[GIN] 2023/06/29 - 02:31:16 | 200 |       458.2µs |   115.61.85.217 | GET      "/static/js/416.8b714abc.chunk.js"
+[GIN] 2023/06/29 - 02:31:16 | 200 |       154.6µs |   115.61.85.217 | GET      "/static/media/icons.38c6d8bab26db77d8c80.woff2"
+[GIN] 2023/06/29 - 02:31:16 | 200 |       896.5µs |   115.61.85.217 | GET      "/api/status"
+[GIN] 2023/06/29 - 02:31:16 | 200 |       327.2µs |   115.61.85.217 | GET      "/api/notice"
+[GIN] 2023/06/29 - 02:31:16 | 200 |       191.2µs |   115.61.85.217 | GET      "/api/home_page_content"
+[GIN] 2023/06/29 - 02:32:02 | 200 |     63.9163ms |   115.61.85.217 | POST     "/api/user/login"
+[GIN] 2023/06/29 - 02:32:02 | 200 |       219.8µs |   115.61.85.217 | GET      "/api/home_page_content"
+[GIN] 2023/06/29 - 02:32:02 | 200 |       209.8µs |   115.61.85.217 | GET      "/api/notice"
+[GIN] 2023/06/29 - 02:32:04 | 200 |       592.4µs |   115.61.85.217 | GET      "/api/channel/?p=0"
+[GIN] 2023/06/29 - 02:32:05 | 200 |         657µs |   115.61.85.217 | GET      "/api/token/?p=0"
+[GIN] 2023/06/29 - 02:32:08 | 200 |       433.2µs |   115.61.85.217 | GET      "/api/channel/?p=0"
+[GIN] 2023/06/29 - 02:32:09 | 200 |       359.8µs |   115.61.85.217 | GET      "/api/group/"
+[GIN] 2023/06/29 - 02:32:09 | 200 |       588.1µs |   115.61.85.217 | GET      "/api/channel/models"
+[GIN] 2023/06/29 - 02:32:17 | 200 |         341µs |   115.61.85.217 | GET      "/static/js/651.16204591.chunk.js"
+[GIN] 2023/06/29 - 02:32:17 | 200 |       241.3µs |   115.61.85.217 | GET      "/api/about"
+[GIN] 2023/06/29 - 02:33:18 | 200 |       437.7µs |   115.61.85.217 | GET      "/api/option/"
+[GIN] 2023/06/29 - 02:33:20 | 200 |       482.2µs |   115.61.85.217 | GET      "/api/option/"
+[GIN] 2023/06/29 - 02:33:23 | 200 |       415.8µs |   115.61.85.217 | GET      "/api/option/"
+[GIN] 2023/06/29 - 02:33:45 | 200 |       185.9µs |   115.61.85.217 | GET      "/api/notice"
+[GIN] 2023/06/29 - 02:33:45 | 200 |       259.3µs |   115.61.85.217 | GET      "/api/home_page_content"
+[GIN] 2023/06/29 - 02:34:46 | 200 |       435.6µs |   115.61.85.217 | GET      "/api/channel/?p=0"
+[GIN] 2023/06/29 - 02:34:47 | 200 |       427.6µs |   115.61.85.217 | GET      "/api/token/?p=0"
+[GIN] 2023/06/29 - 02:34:48 | 200 |       597.8µs |   115.61.85.217 | GET      "/api/redemption/?p=0"
+[GIN] 2023/06/29 - 02:34:49 | 200 |       685.5µs |   115.61.85.217 | GET      "/api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1688009680"
+[GIN] 2023/06/29 - 02:34:49 | 200 |       646.6µs |   115.61.85.217 | GET      "/api/log/stat?type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1688009680"
+[SYS] 2023/06/29 - 02:37:01 | One API v0.0.0 started 
+[SYS] 2023/06/29 - 02:37:01 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/06/29 - 02:37:01 | database connected 
+[SYS] 2023/06/29 - 02:37:01 | database migrated 
+[SYS] 2023/06/29 - 02:37:01 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2023/06/29 - 02:39:39 | One API v0.0.0 started 
+[SYS] 2023/06/29 - 02:39:39 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/06/29 - 02:39:39 | database connected 
+[SYS] 2023/06/29 - 02:39:39 | database migrated 
+[SYS] 2023/06/29 - 02:39:39 | REDIS_CONN_STRING not set, Redis is not enabled 
+[GIN] 2023/06/29 - 02:39:45 | 200 |     15.5583ms |   115.61.85.217 | GET      "/"
+[GIN] 2023/06/29 - 02:39:45 | 200 |     22.7983ms |   115.61.85.217 | GET      "/static/js/main.2f309b56.js"
+[GIN] 2023/06/29 - 02:39:46 | 200 |       449.7µs |   115.61.85.217 | GET      "/static/js/416.261e8f0a.chunk.js"
+[GIN] 2023/06/29 - 02:39:46 | 200 |      1.7494ms |   115.61.85.217 | GET      "/api/status"
+[GIN] 2023/06/29 - 02:39:46 | 200 |       499.4µs |   115.61.85.217 | GET      "/api/notice"
+[GIN] 2023/06/29 - 02:39:46 | 200 |       217.1µs |   115.61.85.217 | GET      "/api/home_page_content"
+[GIN] 2023/06/29 - 02:39:49 | 200 |       378.6µs |   115.61.85.217 | GET      "/hhaihai"
+[GIN] 2023/06/29 - 02:39:50 | 200 |       243.8µs |   115.61.85.217 | GET      "/api/status"
+[GIN] 2023/06/29 - 02:39:54 | 401 |       941.6µs |   115.61.85.217 | GET      "/api/channel/?p=0"
+[GIN] 2023/06/29 - 02:39:55 | 200 |       246.1µs |   115.61.85.217 | GET      "/login?expired=true"
+[GIN] 2023/06/29 - 02:39:55 | 200 |       169.2µs |   115.61.85.217 | GET      "/logo.png"
+[GIN] 2023/06/29 - 02:39:55 | 200 |       296.7µs |   115.61.85.217 | GET      "/api/status"
+[GIN] 2023/06/29 - 02:40:02 | 200 |      63.654ms |   115.61.85.217 | POST     "/api/user/login"
+[GIN] 2023/06/29 - 02:40:03 | 200 |       596.1µs |   115.61.85.217 | GET      "/api/notice"
+[GIN] 2023/06/29 - 02:40:03 | 200 |       188.3µs |   115.61.85.217 | GET      "/api/home_page_content"
+[GIN] 2023/06/29 - 02:40:12 | 200 |       595.5µs |   115.61.85.217 | GET      "/api/token/?p=0"
+[GIN] 2023/06/29 - 02:40:13 | 200 |       545.5µs |   115.61.85.217 | GET      "/api/redemption/?p=0"
+[GIN] 2023/06/29 - 02:40:13 | 200 |       632.8µs |   115.61.85.217 | GET      "/api/user/self"
+[GIN] 2023/06/29 - 02:40:14 | 200 |       625.3µs |   115.61.85.217 | GET      "/api/user/?p=0"
+[GIN] 2023/06/29 - 02:40:14 | 200 |       550.2µs |   115.61.85.217 | GET      "/api/log/?p=0&type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1688010005"
+[GIN] 2023/06/29 - 02:40:14 | 200 |         687µs |   115.61.85.217 | GET      "/api/log/stat?type=0&username=&token_name=&model_name=&start_timestamp=0&end_timestamp=1688010005"
+[GIN] 2023/06/29 - 02:40:17 | 200 |       426.8µs |   115.61.85.217 | GET      "/api/option/"
+[GIN] 2023/06/29 - 02:40:23 | 200 |       270.4µs |   115.61.85.217 | GET      "/static/js/651.30b9fd14.chunk.js"
+[GIN] 2023/06/29 - 02:40:24 | 200 |       205.5µs |   115.61.85.217 | GET      "/api/about"
+[GIN] 2023/06/29 - 02:40:28 | 200 |       394.9µs |   115.61.85.217 | GET      "/api/option/"
+[GIN] 2023/06/29 - 02:40:30 | 200 |      1.2405ms |   115.61.85.217 | GET      "/api/option/"
+[GIN] 2023/06/29 - 02:40:33 | 200 |       238.4µs |   115.61.85.217 | GET      "/api/home_page_content"
+[GIN] 2023/06/29 - 02:40:33 | 200 |       241.5µs |   115.61.85.217 | GET      "/api/notice"
+[SYS] 2023/06/29 - 02:48:59 | One API v0.0.0 started 
+[SYS] 2023/06/29 - 02:48:59 | SQL_DSN not set, using SQLite as database 
+[SYS] 2023/06/29 - 02:48:59 | database connected 
+[SYS] 2023/06/29 - 02:48:59 | database migrated 
+[SYS] 2023/06/29 - 02:48:59 | REDIS_CONN_STRING not set, Redis is not enabled 
+[GIN] 2023/06/29 - 02:49:09 | 200 |      5.5168ms |   115.61.85.217 | GET      "/"
+[GIN] 2023/06/29 - 02:49:10 | 200 |     32.1865ms |   115.61.85.217 | GET      "/static/css/main.44582e8c.css"
+[GIN] 2023/06/29 - 02:49:10 | 200 |     40.6706ms |   115.61.85.217 | GET      "/static/js/main.2f309b56.js"
+[GIN] 2023/06/29 - 02:49:10 | 200 |       190.1µs |   115.61.85.217 | GET      "/logo.png"
+[GIN] 2023/06/29 - 02:49:10 | 200 |       483.9µs |   115.61.85.217 | GET      "/static/js/416.261e8f0a.chunk.js"
+[GIN] 2023/06/29 - 02:49:10 | 200 |       314.5µs |   115.61.85.217 | GET      "/api/status"
+[GIN] 2023/06/29 - 02:49:10 | 200 |       183.7µs |   115.61.85.217 | GET      "/static/media/icons.38c6d8bab26db77d8c80.woff2"
+[GIN] 2023/06/29 - 02:49:10 | 200 |       810.1µs |   115.61.85.217 | GET      "/api/home_page_content"
+[GIN] 2023/06/29 - 02:49:10 | 200 |       120.7µs |   115.61.85.217 | GET      "/api/notice"
